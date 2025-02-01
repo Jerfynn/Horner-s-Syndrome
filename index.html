@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horner's Syndrome - GMC</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">GMC</div>
+        <nav>
+            <ul>
+                <li><button id="loginBtn">Log in</button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>Horner's Syndrome</h1>
+            <p>Easy-to-understand information about Horner's Syndrome.</p>
+            <button id="knowMoreBtn">Know More About Horner's Syndrome</button>
+        </section>
+
+        <section id="typesSection" class="hidden">
+            <h2>Types of Horner's Syndrome</h2>
+            <ul>
+                <li>**Central Horner’s Syndrome** - Caused by brainstem or spinal cord injury.</li>
+                <li>**Preganglionic Horner’s Syndrome** - Due to nerve damage between the spinal cord and chest.</li>
+                <li>**Postganglionic Horner’s Syndrome** - Involves damage to nerves near the carotid artery or eye.</li>
+            </ul>
+        </section>
+
+        <section class="links">
+            <div class="card">
+                <h3>Symptom Checker</h3>
+                <p>Check if you have symptoms of Horner's Syndrome.</p>
+                <button id="checkSymptomsBtn">Check Symptoms</button>
+            </div>
+
+            <div class="card">
+                <h3>Clinical Trials</h3>
+                <p>Search for clinical trials related to Horner's Syndrome.</p>
+                <a href="#">Search Clinical Trials →</a>
+            </div>
+
+            <div class="card">
+                <h3>Support Groups</h3>
+                <p>Find support and share experiences with others.</p>
+                <a href="#">Find a Support Group →</a>
+            </div>
+        </section>
+
+        <section id="symptomsSection" class="hidden">
+            <h2>Horner's Syndrome Symptoms</h2>
+            <ul>
+                <li>**Ptosis (Drooping Eyelid)** - Mild drooping due to weak eyelid muscle.</li>
+                <li>**Miosis (Small Pupil)** - Constricted pupil that does not dilate well.</li>
+                <li>**Anhidrosis (Reduced Sweating)** - Less sweating on the affected side.</li>
+                <li>Delayed pupil dilation in dim light.</li>
+                <li>Slight elevation of the lower eyelid.</li>
+            </ul>
+        </section>
+
+        <section id="loginForm" class="hidden">
+            <h2>Login</h2>
+            <table>
+                <tr>
+                    <td>Name:</td>
+                    <td><input type="text" id="nameInput"></td>
+                </tr>
+                <tr>
+                    <td>Patient ID:</td>
+                    <td><input type="text" id="patientIdInput"></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><button id="submitLogin">Submit</button></td>
+                </tr>
+            </table>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
